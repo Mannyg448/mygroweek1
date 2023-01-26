@@ -13,6 +13,78 @@
 
 
 body {
+background-color: var(--bluish);
+color: var(--yellowish);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
 font-family: 'Oswald', sans-serif;
 }
+
+.title {
+    margin: 0.5em;
+    font-size: 4em;
+    font-weight: lighter;
+    letter-spacing: 0.05em;
+    color: var(--background);
+}
+
+.newGroceryForm {
+    display: flex;
+}
+
+#newGrocery {
+    background-color: var(--yellowish);
+    color: black;
+    padding: 0.5em;
+    width: 20em;
+    font-size: 1.5em;
+    border-radius: 0.25em 0 0 0.25em;
+    font-weight: bold;
+}
+
+#addBtn {
+    background-color: var(--purplish);
+    color: var(--background);
+    padding: 0.5em;
+    font-size: 1.5em;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 0 0.25em 0.25em 0;
+}
+
+#addBtn:hover {
+    background-color: var(--background);
+    color: var(--yellowish);
+
+}
+
+#groceryList {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--purplish);
+    color: var(--background);
+    align-items: center;
+    justify-content: center;
+    margin-top: 2em;
+    border-radius: 0.5em;
+}
+
+.groceryItem {
+    background-color: var(--yellowish);
+    color: var(--background);
+    margin: 0.5em;
+    width: 20em;
+    text-align: center;
+    padding: 0.5em;
+    font-weight: bold;
+}
+
+.groceryItem:hover {
+    background-color: var(--bluish);
+    color: var(--yellowish);
+    font-weight: bold;
+}
+
 
